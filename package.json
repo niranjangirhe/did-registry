@@ -1,6 +1,9 @@
 {
   "name": "did-registry",
   "version": "1.0.0",
+  "scripts": {
+    "deploy:watr": "hardhat run scripts/deploy.js --network watr"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
     "@nomicfoundation/hardhat-ethers": "^3.1.2",
